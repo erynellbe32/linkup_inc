@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3,ul li {
+	color:white;
+}
+
+.HeadBanner {
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menuformcontainer {
+	background-color: rgba(0,51,204,.8);
+	border-top-style: none;
+	border-right-style: ridge;
+	border-bottom-style: none;
+	border-left-style: ridge;
+	border-right-color: rgba(255,255,255,1);
+	border-left-color: rgba(255,255,255,1);
+	border-top-width: 6px;
+	border-right-width: 6px;
+	border-bottom-width: 6px;
+	border-left-width: 6px;
+	border-top-color: rgba(255,255,255,1);
+	border-bottom-color: rgba(255,255,255,1);
+/* Excluded for Floating 
+	top: 0px;
+	left: 520px;
+	position: absolute;
+ */
+
+}
+
+
+/* Floating Header Banner */
+
+#BannerFloat {
+	top: 0px;
+	left: 20%;
+	position: fixed;
+}
+
+
+
+.tupper {
+	z-index: 200 px;
+
+}
+
+.menupages {
+	background-color: rgba(0,51,204,.8);
+	border: 6px ridge rgba(255,255,255,1);
+}
+	
+
+
+/* Floating Header Banner 
+
+li.navarrow {
+	background-image: url(../Images/Arrow02.PNG);
+	background-repeat: no-repeat;
+}
+
+
+*/
+
+
+.marginempty {
+	margin: 8 px;
+
+}
+
+
+/* Footer Document */
+
+.force-to-bottom {
+  position: relative;
+  bottom: 1%;
+  width: 120%;
+
+}
+
+/* adjustment for Nav Pills */
+
+.nav-tabs > li > a {
+color:  black ;
+
+}
+
+
+
+.nav-pills > li > a {
+color:  white ;
+}
+
+.nav-pills > li > a:hover {
+color:  white ;
+
+}
+
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  color: black;
+  background-color: white;
+}
+
